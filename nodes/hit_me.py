@@ -3,7 +3,7 @@ import rospy
 import numpy as np
 
 from geometry_msgs.msg import Twist
-from asd_exercise.msg import ClosestPoint
+from asd_assignment2.msg import ClosestPoint
 
 # initialize topics published by this node
 cmdVelPublisher = rospy.Publisher('cmd_vel', Twist, queue_size=2)

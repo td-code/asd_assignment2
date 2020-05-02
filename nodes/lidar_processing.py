@@ -5,7 +5,7 @@ import numpy as np
 from std_msgs.msg import String
 from sensor_msgs.msg import LaserScan
 from visualization_msgs.msg import Marker
-from asd_exercise.msg import ClosestPoint
+from asd_assignment2.msg import ClosestPoint
 
 # initialize topics published by this node
 closestPtPublisher = rospy.Publisher('closest_pt', ClosestPoint, queue_size=2)
