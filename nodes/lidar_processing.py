@@ -21,7 +21,7 @@ def lidarCallback(scanData):
     closestPt = ClosestPoint()
 
     # TODO 1: Add code here for finding the closest point and setting the output message
-    rospy.loginfo(rospy.get_caller_id() + ': implement me')
+    rospy.loginfo(rospy.get_caller_id() + ': TODO 1')
 
     closestPtPublisher.publish(closestPt)
 
